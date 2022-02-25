@@ -5,3 +5,5 @@ curl -X DELETE http://localhost/machine-api/api/v1/housekeeping/timeseries/clear
 curl --location --request DELETE "http://localhost/machine-api/api/v1/housekeeping/timeseries/clearOldData?dayLimit=30&sizeLimit=5000"
 
 curl --location --request DELETE "http://localhost/machine-api/api/v1/housekeeping/timeseries/clearOldData?dayLimit=30&sizeLimit=100000"
+
+123
